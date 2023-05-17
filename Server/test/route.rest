@@ -1,0 +1,27 @@
+
+GET http://localhost:8080/
+
+###
+
+POST http://localhost:8080/api/v1 
+Content-Type: application/json
+
+{
+    "name" : "Rajesh",
+    "channel" :"CTT"
+}
+
+###
+GET http://localhost:8080/api/v1/645e1ddb7baf1a3fbc50e566
+
+###
+DELETE http://localhost:8080/api/v1/645e1ddb7baf1a3fbc50e566
+
+###
+PATCH  http://localhost:8080/api/v1/645f0a1bdb8cf8c7e50fd108
+Content-Type: application/json
+
+{
+    "name" : "harry"
+    
+}
